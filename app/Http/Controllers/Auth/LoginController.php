@@ -18,6 +18,10 @@ class LoginController extends Controller
     |
     */
 
+    //重置登陆文件
+    public function showLoginForm(){
+        return view('admin.login');
+    }
     use AuthenticatesUsers;
 
     /**
